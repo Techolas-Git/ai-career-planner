@@ -1,0 +1,10 @@
+# Never push your API key
+.streamlit/secrets.toml
+secrets.toml
+
+# Archives (the project zip contains a virtualenv and the API key)
+*.zip
+
+# Python
+.venv/
+__pycache__/
